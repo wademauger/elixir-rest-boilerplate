@@ -1,6 +1,8 @@
-# Saas
+# Elixir Rest Boilerplate
 
-To start your Phoenix app:
+A Boilerplate of a Phoenix app that only makes use of the JSON API portion of the framework.
+
+Getting Started:
 
   * Install dependencies with `mix deps.get`
   * Have PostgreSQL installed and auth information added appropriately in `/config`
