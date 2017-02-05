@@ -3,10 +3,15 @@
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
+  * Have PostgreSQL installed and auth information added appropriately in `/config`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   * Start Phoenix endpoint with `mix phoenix.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Now you can hit `localhost:4000/users`
+
+Add more endpoints with `mix phoenix.gen.json <scheme_name> <TableName> attribute:type attribute:type`
+
+Migrations are in `priv/repo/migrations/`. If you add a migration, run `mix ecto.migrate`.
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
